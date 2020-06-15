@@ -1,0 +1,9 @@
+# A Python Program to print positive Numbers in a List 
+
+# List of numbers 
+list1 = [12, -7,5, 64, -14] 
+
+# Iterating each number in the list 
+for num in list1:  
+	if num >= 0:                              #checking condition for positive
+	print(num, end = " ") 
