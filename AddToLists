@@ -1,3 +1,4 @@
+LISTS:
 #Using Append function 
 #By using this method the new element will be added to the end of the list:
 
@@ -31,3 +32,37 @@ odds = [1, 3, 5]
 
 nums = odds + evens
 print(nums)  # [1, 3, 5, 2, 4, 6]
+
+
+
+TUPLES:
+#accessing elements from a tuple:
+
+tup1 = ('physics', 'chemistry', 1997, 2000);
+tup2 = (1, 2, 3, 4, 5, 6, 7 );
+print "tup1[0]: ", tup1[0];
+print "tup2[1:5]: ", tup2[1:5];
+
+#output would be :
+tup1[0]:  physics
+tup2[1:5]:  [2, 3, 4, 5]
+
+
+DICTIONARY:
+#deleting an element from a dictionary
+#using del:
+
+#Dictionary intialised  
+test_dict = {"Abi" : 22, "Anil" : 21, "Bhargav" : 21, "Varitha" : 21} 
+
+#Original content printed  
+print ("The dictionary before performing remove is : " + str(test_dict)) 
+
+# Using del to remove a dict 
+# removes Bhargav 
+del test_dict['Bhargav']
+
+# Printing dictionary after removal 
+print ("The dictionary after remove is : " + str(test_dict)) 
+
+ 
